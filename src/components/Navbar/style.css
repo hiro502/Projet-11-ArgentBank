@@ -9,6 +9,11 @@
     font-weight: bold;
     color: #2c3e50;
   }
+
+  .main-nav boutton {
+    font-weight: bold;
+    color: #2c3e50;
+  }
   
   .main-nav a.router-link-exact-active {
     color: #42b983;
@@ -32,4 +37,6 @@
     max-width: 100%;
     width: 200px;
   }
-  
+.nav-icon{
+  margin-right: 5px;
+}  
