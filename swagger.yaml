@@ -117,7 +117,7 @@ paths:
                     items:
                       type: object
                       properties:
-                        transaction_id:
+                        id:
                           type: string
                         account_type:
                           type: string
@@ -151,7 +151,7 @@ paths:
           description: Unauthorized - Invalid token
         '500':
           description: Internal server error
-  /transactions/{transaction_id}/category:
+  /transactions/{id}/category:
     patch:
       security:
         - BearerAuth: []
@@ -186,7 +186,7 @@ paths:
         '500':
           description: Internal Server Error
 
-  /transactions/{transaction_id}/note:
+  /transactions/{id}/note:
     patch:
       security:
         - BearerAuth: []
