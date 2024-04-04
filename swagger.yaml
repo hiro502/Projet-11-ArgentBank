@@ -161,7 +161,7 @@ paths:
       description: API for updating the category of a transaction
       parameters:
         - in: path
-          name: transaction_id
+          name: id
           required: true
           schema:
             type: string
@@ -196,7 +196,7 @@ paths:
       description: API for updating the note of a transaction
       parameters:
         - in: path
-          name: transaction_id
+          name: id
           required: true
           schema:
             type: string

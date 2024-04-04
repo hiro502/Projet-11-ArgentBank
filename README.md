@@ -5,8 +5,9 @@ Argent Bank est une page web bancaire permettant l'authentification des utilisat
 
 ## Spécifications techniques côté Frontend
 - React
+- React Router
 - Redux
-
+- Redux Toolkit
 ## Spécifications techniques côté Backend
 Pour plus de détails sur les spécifications techniques côté backend, veuillez consulter le lien suivant :　https://github.com/hiro502/Projet-11-ArgentBank-website.git
 
