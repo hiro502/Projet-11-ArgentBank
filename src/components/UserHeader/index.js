@@ -2,13 +2,16 @@ import { useState } from 'react';
 import { useDispatch,useSelector } from 'react-redux';
 import { editUserName } from '../../Redux/userProfileSlice';
 
+
 import "./style.css";
 
 const UserHeader = () => {
  const dispatch = useDispatch();
+ const userName = useSelector(state => state.user.userProfile?.userName);
  const firstName = useSelector(state => state.user.userProfile?.firstName);
  const lastName = useSelector(state => state.user.userProfile?.lastName);
- const [editedUserName, setEditedUserName] = useState('');
+
+ const [editedUserName, setEditedUserName] = useState(userName);
  const [isEditing, setIsEditing] = useState(false);
 
   const handleEditClick = () => {
